@@ -1,0 +1,25 @@
+html {
+  font-family: system-ui, sans-serif;
+  font-size: 1.25rem;
+}
+
+body {
+  margin: 0;
+  padding: 0 1.5rem;
+  background-color: #202126;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.location:hover {
+  fill: #975cc4;
+  cursor: pointer;
+}
+
+.map-size {
+  height: 700px;
+  width: 800px;
+}
